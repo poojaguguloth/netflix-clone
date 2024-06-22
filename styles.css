@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+        background-color: black;
+
+    }
+    
+
+main{
+    background-image: url(./images/Netflix-Background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw) ;
+    height: 100vh;
+    position:relative;
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Teko:wght@300..700&display=swap');
+}
+
+    
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+        }
+    
+        body {
+            background-color: black;
+    
+        }
+    
+    
+        main {
+            background-image: url(./images/Netflix-Background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: max(1200px, 100vw);
+            height: 100vh;
+            position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.6;
+    top:0;
+    background-color: black;
+    position: absolute;
+}
+    
+
+nav{
+    padding-top: 10px;
+
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color:red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    
+}
+.hero{
+    height: calc(100%-72px);
+    padding-top: 100px;
+
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    
+    
+}
+    
+.hero> :nth-child(1) {
+    font-weight: 700;
+    font-size: 38px;
+      
+}
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 25px;
+     
+}
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 15px; 
+    text-align: center;
+}
+nav{
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+
+}
+.btn{
+    padding: 3px, 8px;
+    font-weight: bold;
+    background-color: red;
+}
+.btn-red{
+    background-color: red;
+    color: black;
+}
+.btn-red-sm{
+    background-color: red;
+    color: black;
+}
+.btn-red-sm{
+    background-color: white;
+}
